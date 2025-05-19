@@ -1,0 +1,64 @@
+# ======= IDE / PYCHARM / INTELLIJ ========
+.idea/
+*.iml
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# ======= PYTHON / PIP / CACHE / VENV ========
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+*.egg
+pip-log.txt
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ======= JUPYTER / NOTEBOOKLAR ========
+.ipynb_checkpoints/
+*.ipynb
+
+# ======= MODEL / ML ARTEFACTS ========
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.onnx
+*.model
+*.tflite
+
+# ======= CATBOOST / OPTUNA / CACHE / LOG ========
+catboost_info/
+optuna_study/
+checkpoints/
+logs/
+*.json
+*.tsv
+*.csv
+
+# ======= SUBMISSION VE OUTPUTLAR ========
+submission_*.csv
+results/
+outputs/
+predictions/
+
+# ======= GEÇİCİ / DEBUG / DENEME DİZİNLERİ ========
+debug/
+temp/
+tmp/
+__results__/
+
+# ======= OS / MAC / WIN UYUMLULUK DOSYALARI ========
+.DS_Store
+Thumbs.db
